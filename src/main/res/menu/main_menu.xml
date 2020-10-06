@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/menu_add"
+            android:title="Add" />
+        <item
+            android:id="@+id/menu_modify"
+            android:title="Modify" />
+        <item
+            android:id="@+id/menu_remove"
+            android:title="Remove" />
+    </group>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save"
+        app:showAsAction="always" />
+    <group>
+        <item
+            android:id="@+id/menu_hello"
+            android:title="Hello" />
+        <item android:title="Item" />
+        <item android:title="Item" />
+    </group>
+</menu>
